@@ -1,0 +1,32 @@
+// Código de Nav acá
+.nav{
+    position: fixed;
+    width: 100%;
+    gap : 10px;
+    font-size: 3em;
+    border-bottom: 2px solid @nav-border;
+    padding: 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(246, 246, 246, 1); /* Valor inicial del fondo sin opacidad */
+
+  &:hover {
+    background: rgba(5, 7, 12, 0.8); /* Fondo con opacidad al hacer hover */
+  }
+    & .h4-nav{
+        
+        display: flex;
+        font-size: 0.7em;
+        & h4{
+            margin-left: 1em;
+            padding: 0;
+            color: @header-font-color;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+        
+    }
+
+}
+
